@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+body {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* min-height: 100vh; */
+    background: #fff;
+}
+
+.flex {
+    display: flex;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.gap {
+    gap: 30px;
+}
+
+.padding {
+    padding-bottom: 90px;
+}
+
+.margin {
+    margin-bottom: 45px;
+}
+
+.border {
+    border-radius: 15px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+li {
+    list-style-type: none;
+}
+
+:root {
+    --color-primary:#003B95;
+    --color-text-bold:#153D8B
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    /* height: 7000px; */
+}
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.header {
+    max-width: 1440px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    background-color: #fff;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.header__logo {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header__menu-item {
+    margin-right: 45px;
+}
+
+.header__account-item {
+    margin-right: 25px;
+}
+
+.header__menu-item a:hover{
+    color: #A58458;
+}
+.header__account-item:first-child a:hover {
+    color: #A58458;
+}
+.header__account-booking {
+    padding: 10px 15px;
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: #A58458;
+    color: #fff;
+}
+
+.banner {
+    background-image: url('imgs/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1440px;
+    height: 700px;
+}
+
+.banner__heading1 {
+    padding-top: 240px;
+    font-size: 45px;
+    font-weight: 900;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__heading2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__search {
+    /* margin: 0 auto; */
+    max-width: 1170px;
+    background-color: #fff;
+    border-radius: 15px;
+    height: 82px;
+    padding-top: 17px;
+}
+
+.banner__search-container {
+    display: flex;
+}
+
+.banner__search-list {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.banner__search-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__search-date {
+    width: 340px;
+}
+
+.banner__search-date i {
+    display: flex;
+    align-items: center;
+}
+.banner__search-date-detail {
+    margin-left: 20px;
+}
+
+.banner__search-input {
+    border: none;
+    width: 80px;
+    margin-top: 15px;
+}
+
+.banner__search-img {
+    display: flex;
+    border-radius: 100px;
+    border: none;
+    background-color: #A58458;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__search-img i {
+    color: #fff;
+}
+
+
+.offers {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.offers__detail {
+    max-width: 360px;
+    justify-content: center;
+}
+
+.offers__heading {
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.offers__container-list {
+    justify-content: space-between;
+}
+
+.offers__detail-img {
+    width: 360px;
+    height: 270px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.offers__detail-inspiration {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.offers__detail-trailer {
+    display: flex;
+    justify-content: center;
+    color: #4F5E71;
+    margin-bottom: 20px;
+}
+
+.offers__detail-readmore {
+    display: flex;
+    justify-content: center;
+    color: #A58458;
+    font-weight: 500;
+}
+
+.rooms {
+    padding-bottom: 90px;
+}
+.rooms__inner-heading {
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 35px;
+}
+
+.rooms__inner-list {
+    max-width: 273.75px;
+    height: 455px;
+}
+
+.rooms__inner-item {
+    background-color: #F2F4F4;
+    border-radius: 15px;
+    margin-right: 25px;
+}
+.rooms__inner-img {
+    max-width: 273.75px;
+    border-radius: 15px 15px 0 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+.rooms__inner-namehotel {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.rooms__inner-detail {
+    display: flex;
+    gap: 16px;
+    padding: 10px 0 10px 0;
+    font-size: 13px;
+    color: #4E5D70;
+}
+
+.rooms__inner-friceandview{
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.rooms__inner-frice {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.rooms-frice {
+    font-size: 13px;
+    color: #4E5D70;
+}
+
+.rooms__inner-viewdetail {
+    color: #A58458;
+    font-weight: 700;
+}
+
+.rooms__inner-viewall {
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+}
+.rooms__inner-viewallrooms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    border: 2px solid;
+    border-radius: 25px;
+    margin-top: 30px;
+    color: #A58458;
+    font-weight: 600;
+}
+
+.services {
+    padding-bottom: 90px;
+}
+
+
+
+.booknow__inner {
+    /* display: flex; */
+    height: 420px;
+    background-image: url(imgs/booknow.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    padding-top: 90px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.booknow__inner-heading {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.booknow__inner-incentives {
+    font-size: 45px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.booknow__inner-code {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+
+.usercode {
+    color: #A58458;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-shadow: 
+        -1px -1px 0 #fff, /* Bóng trên-trái */
+         1px -1px 0 #fff, /* Bóng trên-phải */
+        -1px  1px 0 #fff, /* Bóng dưới-trái */
+         1px  1px 0 #fff; /* Bóng dưới-phải */
+    font-size: 24px;
+}
+
+.booknow__inner-booking {
+    padding: 15px 15px;
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 25px;
+    align-items: center;
+}
+
+.booknow__inner-booking-booknow {
+    color: #A58458;
+    align-items: center;
+}
+
+.content__heading {
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.interes-list {
+    height: 300px;
+}
+
+.interes-item1 {
+    padding-top: 35px;
+    padding-left: 30px;
+    width: 570px;
+    border-radius: 15px;
+    background-image: url(imgs/food.jpg);
+    background-repeat: no-repeat;         /* ngan lap anh*/
+    background-size: cover;      /*anh vua khung*/         
+    background-position: center;         
+    border: 1px solid #ccc;               
+}
+
+.interes-item2 {
+    padding-top: 35px;
+    padding-left: 30px;
+    width: 570px;
+    border-radius: 15px;
+    background-image: url(imgs/ruou.jpg);
+    background-repeat: no-repeat;         /* ngan lap anh*/
+    background-size: cover;      /*anh vua khung*/         
+    background-position: center;         
+    border: 1px solid #ccc;               
+}
+
+.heading2 {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.interes-content {
+    color: #fff;
+    font-weight: 500;
+}
+
+.interes-viewall {
+    margin-top: 100px;
+    border-radius: 25px;
+    border: 1 solid #fff;
+    background-color: #fff;
+    width: 120px;
+    height: 50px;
+}
+
+.interes-viewall-a {
+    color: #A58458;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.interes-viewall:hover {
+    margin-top: 100px;
+    border-radius: 25px;
+    border: 1 solid #fff;
+    background-color: #A58458;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;          /* Con trỏ chuột */
+    transition: all 0.3s ease; /* Hiệu ứng mượt */
+    transform: translateY(-5px);/* Trượt lên trên 10px */
+}
+
+
+.interes-viewall-a:hover {
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.activity-list {
+    height: 400px;
+    justify-content: space-between;
+}
+
+.activity-item {
+    width: 270px;
+    height: 400px;
+    /* background-image: url(imgs/banner.jpg);
+    background-repeat: no-repeat;         ngan lap anh
+    background-size: cover;      anh vua khung
+    background-position: center;          */
+    border: 1px solid #ccc;    
+    border-radius: 15px;
+}
+
+.activity-item h2 {
+    padding-left: 20px;
+    margin-top: 345px;
+}
+.story-item {
+    /* line-height: 30px; */
+    background-color: #F2F4F4;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+.story-item i {
+    color: #A58458;
+}
+.story-list {
+    height: 250px;
+}
+
+.story-user{
+    margin-top: 20px;
+}
+.story-user-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.story-content {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+.user-name {
+    font-weight: 600;
+}
+
+.user-location {
+    color: #4E5D70;
+}
+
+.story-user-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer__inner {
+    height: 480px;
+    background-color: #F2F4F4;
+    padding-top: 60px;
+}
+
+
+.footer-list {
+    justify-content: space-between;
+}
+.footer-heading {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+.footer-item a {
+    color: #4E5D70;
+}
+
+.footer__payment-img {
+}
+.footer__payment-img img {
+    width: 50px;
+    height: 30px;
+    object-fit: cover; /*phu hop voi khung*/
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1170px;
+    border: none;           
+    border-top: 1px solid #767676; 
+    margin-left: 135px;
+    margin-top: 45px;
+}
+
+.end {
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.end a {
+    color: #4E5D70;
+
+}

@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="./imgs/logo1.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Booking.com</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__inner">
+                <a href="index.html" class="header__logo">Booking.com</a>
+                <nav class="header__menu">
+                    <ul class="header__menu-list flex">
+                        <li class="header__menu-item">
+                            <a href="#" class="header__menu-link">Home</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#" class="header__menu-link">Rooms</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#" class="header__menu-link">Restaurant & Bar</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#" class="header__menu-link">Features</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#" class="header__menu-link">Contacs</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__account">
+                    <ul class="header__account-list flex">
+                        <li class="header__account-item">
+                            <a href="#" class="header__account-link">Languege</a>
+                        </li>
+                        <li class="header__account-item">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </li>
+                        <li class="header__account-item">
+                            <a href="#" class="header__account-booking">Booking Now</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <section class="banner">
+            <div class="banner__inner container">
+                <h1 class="banner__heading1 flex">The Perfect Beachfront Destination</h1>
+                <h3 class="banner__heading2 flex">Experience a refreshing approach to your stay at The Beach Hotel</h3>
+                <div class="banner__search">
+                    <div class="banner__search-container">
+                        <form action="banner__search-form">
+                            <ul class="banner__search-list flex">
+                                <li class="banner__search-item">
+                                    <div class="banner__search-date flex">
+                                        <i class="fa-regular fa-calendar"></i>
+                                        <div class="banner__search-date-detail">
+                                            <p class="banner__search-date-checkinout">Check in - Check out</p>
+                                            <div class="banner__search-checkdate">
+                                                <input type="text" class="banner__search-input" placeholder="2024/11/23">
+                                                <input type="text" class="banner__search-input" placeholder="2024/11/26">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="banner__search-item">
+                                    <div class="banner__search-date flex">
+                                        <i class="fa-regular fa-calendar"></i>
+                                        <div class="banner__search-date-detail">
+                                            <p class="banner__search-date-checkinout">Check in - Check out</p>
+                                            <div class="banner__search-checkdate">
+                                                <input type="text" class="banner__search-input" placeholder="2024/11/23">
+                                                <input type="text" class="banner__search-input" placeholder="2024/11/26">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="banner__search-item">
+                                    <div class="banner__search-date flex">
+                                        <i class="fa-regular fa-calendar"></i>
+                                        <div class="banner__search-date-detail">
+                                            <p class="banner__search-date-checkinout">Check in - Check out</p>
+                                            <div class="banner__search-checkdate">
+                                                <input type="text" class="banner__search-input" placeholder="2024/11/23">
+                                                <input type="text" class="banner__search-input" placeholder="2024/11/26">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="banner__search-item">
+                                    <div class="banner__search-img">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </div>
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="offers">
+            <div class="offers__inner container">
+                <h1 class="offers__heading">Offers to inspire you</h1>
+                <div class="offers__container">
+                    <ul class="offers__container-list flex">
+                        <li class="offers__container-item">
+                            <div class="offers__detail">
+                                <img src="imgs/family.jpg" alt="" class="offers__detail-img">
+                                <h2 class="offers__detail-inspiration">Family Escape</h2>
+                                <p class="offers__detail-trailer">Children eat free, exciting fun activities.</p>
+                                <a href="#" class="offers__detail-readmore">Readmore</a>
+                            </div>
+                        </li>
+                        <li class="offers__container-item">
+                            <div class="offers__detail">
+                                <img src="imgs/Business.jpg" alt="" class="offers__detail-img">
+                                <h2 class="offers__detail-inspiration">Business Trip</h2>
+                                <p class="offers__detail-trailer">Up to 20% off food and services</p>
+                                <a href="#" class="offers__detail-readmore">Readmore</a>
+                            </div>
+                        </li>
+                        <li class="offers__container-item">
+                            <div class="offers__detail">
+                                <img src="imgs/romance.jpg" alt="" class="offers__detail-img">
+                                <h2 class="offers__detail-inspiration">Romance</h2>
+                                <p class="offers__detail-trailer">Discount room rates, reward points</p>
+                                <a href="#" class="offers__detail-readmore">Readmore</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="rooms">
+            <div class="rooms__inner container">
+                <h1 class="rooms__inner-heading">Our rooms & suites</h1>
+                <ul class="rooms__inner-list flex">
+                    <li class="rooms__inner-item">
+                        <img src="imgs/rooms1.jpeg" alt="" class="rooms__inner-img">
+                        <div class="content">
+                            <h3 class="rooms__inner-namehotel">Deluxe king room with bancony</h3>
+                            <div class="rooms__inner-detail">
+                                <i class="fa-solid fa-star"></i>
+                                <p class="rooms__inner-content">4.5/5 (2 reviews)</p>
+                            </div>
+                            <div class="rooms__inner-detail">
+                                <i class="fa-solid fa-expand"></i>
+                                <p class="rooms__inner-content">Room Size: 50spm</p>
+                            </div>
+                            <div class="rooms__inner-detail">
+                                <i class="fa-solid fa-bed"></i>
+                                <p class="rooms__inner-content">Bed: 1 beds</p>
+                            </div>
+                            <div class="rooms__inner-detail">
+                                <i class="fa-regular fa-user"></i>
+                                <p class="rooms__inner-content">Max: 6 adults</p>
+                            </div>
+                            <div class="rooms__inner-friceandview flex">
+                                <p class="rooms__inner-frice">$111.0 <span class="rooms-frice">/night</span></p>
+                                <p class="rooms__inner-viewdetail">View Detail</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rooms__inner-item">
+                        <img src="imgs/room2.jpg" alt="" class="rooms__inner-img">
+                        <div class="content">
+                            <h3 class="rooms__inner-namehotel">Deluxe king room with bancony</h3>
+                            <div class="rooms__inner-detail flex">
+                                <i class="fa-solid fa-star"></i>
+                                <p class="rooms__inner-content">4.5/5 (2 reviews)</p>
+                            </div>
+                            <div class="rooms__inner-detail">
+                                <i class="fa-solid fa-expand"></i>
+                                <p class="rooms__inner-content">Room Size: 50spm</p>
+                            </div>
+                            <div class="rooms__inner-detail">
+                                <i class="fa-solid fa-bed"></i>
+                                <p class="rooms__inner-content">Bed: 1 beds</p>
+                            </div>
+                            <div class="rooms__inner-detail">
+                                <i class="fa-regular fa-user"></i>
+                                <p class="rooms__inner-content">Max: 6 adults</p>
+                            </div>
+                            <div class="rooms__inner-friceandview flex">
+                                <p class="rooms__inner-frice">$111.0 <span class="rooms-frice">/night</span></p>
+                                <p class="rooms__inner-viewdetail">View Detail</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rooms__inner-item">
+                        <img src="imgs/room3.jpg" alt="" class="rooms__inner-img">
+                        <div class="content">
+                            <h3 class="rooms__inner-namehotel">Deluxe king room with bancony</h3>
+                            <div class="rooms__inner-detail flex">
+                                <i class="fa-solid fa-star"></i>
+                                <p class="rooms__inner-content">4.5/5 (2 reviews)</p>
+                            </div>
+                            <div class="rooms__inner-detail">
+                                <i class="fa-solid fa-expand"></i>
+                                <p class="rooms__inner-content">Room Size: 50spm</p>
+                            </div>
+                            <div class="rooms__inner-detail">
+                                <i class="fa-solid fa-bed"></i>
+                                <p class="rooms__inner-content">Bed: 1 beds</p>
+                            </div>
+                            <div class="rooms__inner-detail">
+                                <i class="fa-regular fa-user"></i>
+                                <p class="rooms__inner-content">Max: 6 adults</p>
+                            </div>
+                            <div class="rooms__inner-friceandview flex">
+                                <p class="rooms__inner-frice">$111.0 <span class="rooms-frice">/night</span></p>
+                                <p class="rooms__inner-viewdetail">View Detail</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="rooms__inner-item">
+                        <img src="imgs/room4.jpg" alt="" class="rooms__inner-img">
+                        <div class="content">
+                            <h3 class="rooms__inner-namehotel">Deluxe king room with bancony</h3>
+                            <div class="rooms__inner-detail flex">
+                                <i class="fa-solid fa-star"></i>
+                                <p class="rooms__inner-content">4.5/5 (2 reviews)</p>
+                            </div>
+                            <div class="rooms__inner-detail">
+                                <i class="fa-solid fa-expand"></i>
+                                <p class="rooms__inner-content">Room Size: 50spm</p>
+                            </div>
+                            <div class="rooms__inner-detail">
+                                <i class="fa-solid fa-bed"></i>
+                                <p class="rooms__inner-content">Bed: 1 beds</p>
+                            </div>
+                            <div class="rooms__inner-detail">
+                                <i class="fa-regular fa-user"></i>
+                                <p class="rooms__inner-content">Max: 6 adults</p>
+                            </div>
+                            <div class="rooms__inner-friceandview flex">
+                                <p class="rooms__inner-frice">$111.0 <span class="rooms-frice">/night</span></p>
+                                <p class="rooms__inner-viewdetail">View Detail</p>
+                            </div>  
+                        </div>
+                    </li>
+                </ul>
+                <div class="rooms__inner-viewall">
+                    <a href="#" class="rooms__inner-viewallrooms">View All Rooms</a>
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <div class="services__inner container">
+                <h1 class="offers__heading">Our services</h1>
+                <ul class="offers__container-list flex">
+                    <li class="offers__container-item">
+                        <div class="offers__detail">
+                            <img src="imgs/nhahang.jpg" alt="" class="offers__detail-img">
+                            <h2 class="offers__detail-inspiration">Family Escape</h2>
+                            <p class="offers__detail-trailer">Children eat free, exciting fun activities.</p>
+                            <a href="#" class="offers__detail-readmore">Readmore</a>
+                        </div>
+                    </li>
+                    <li class="offers__container-item">
+                        <div class="offers__detail">
+                            <img src="imgs/spa.jpg" alt="" class="offers__detail-img">
+                            <h2 class="offers__detail-inspiration">Business Trip</h2>
+                            <p class="offers__detail-trailer">Up to 20% off food and services</p>
+                            <a href="#" class="offers__detail-readmore">Readmore</a>
+                        </div>
+                    </li>
+                    <li class="offers__container-item">
+                        <div class="offers__detail">
+                            <img src="imgs/gym.jpg" alt="" class="offers__detail-img">
+                            <h2 class="offers__detail-inspiration">Romance</h2>
+                            <p class="offers__detail-trailer">Discount room rates, reward points</p>
+                            <a href="#" class="offers__detail-readmore">Readmore</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="booknow padding">
+            <div class="booknow__inner container">
+                <h3 class="booknow__inner-heading">Booking hotel room</h3>
+                <h1 class="booknow__inner-incentives">-10% for advance booking</h1>
+                <h2 class="booknow__inner-code">Use code: <span class="usercode">BOOKINGHOTEL</span></h2>
+                <div class="booknow__inner-booking">
+                    <a href="#" class="booknow__inner-booking-booknow flex">Book Now</a>
+                </div>
+            </div>
+        </section>
+        <section class="interes  padding">
+            <div class="interes__inner container">
+                <h1 class="content__heading">journey will be more interesting</h1>
+                <ul class="interes-list flex gap">
+                    <li class="interes-item1">
+                        <h2 class="heading2">food and earn points</h2>
+                        <p class="interes-content">Travel hassle-free within Bali, visit popular <br>attractions, or do water activities!</p>
+                        <div class="interes-viewall">
+                            <a href="#" class="interes-viewall-a flex">View More</a>
+                        </div>
+                    </li>
+                    <li class="interes-item2">
+                        <h2 class="heading2">food and earn points</h2>
+                        <p class="interes-content">Travel hassle-free within Bali, visit popular <br>attractions, or do water activities!</p>
+                        <div class="interes-viewall">
+                            <a href="#" class="interes-viewall-a flex">View More</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="activity padding">
+            <div class="activity__inner container">
+                <h1 class="content__heading margin">Make the most of your long weekend</h1>
+                <ul class="activity-list flex">
+                    <li class="activity-item gap" style="background: url(imgs/diving.jpg) no-repeat center; background-size: cover;">
+                        <h2 class="heading2">Diving</h2>
+                    </li>
+                    <li class="activity-item gap" style="background: url(imgs/tholan.jpg) no-repeat center; background-size: cover;">
+                        <h2 class="heading2">Sailing</h2>
+                    </li>
+                    <li class="activity-item gap" style="background: url(imgs/festival.jpg) no-repeat center; background-size: cover;">
+                        <h2 class="heading2">Festival</h2>
+                    </li>
+                    <li class="activity-item gap" style="background: url(imgs/luotsong.jpg) no-repeat center; background-size: cover;">
+                        <h2 class="heading2">Surfing</h2>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="story padding">
+            <div class="story__inner container">
+                <h1 class="content__heading">Every stay has a story</h1>
+                <ul class="story-list flex gap">
+                    <li class="story-item">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <p class="story-content">Incredible experience at the new Stanly Ranch. Auberge Resorts never disappoint but Stanly Ranch takes the level of hospitality to another level...The restaurant Bear is beautifully appointed and the pool cabanas, poolside beverages and food were a 10. The service was impeccable.</p>
+                        <div class="story-user flex gap-16">
+                            <div class="story-user-avatar">
+                                <img src="imgs/user.jpg" alt="" class="story-user-img">
+                            </div>
+                            <div class="story-user-name">
+                                <p class="user-name">Nam in here</p>
+                                <p class="user-location">New York</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="story-item">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <p class="story-content">Incredible experience at the new Stanly Ranch. Auberge Resorts never disappoint but Stanly Ranch takes the level of hospitality to another level...The restaurant Bear is beautifully appointed and the pool cabanas, poolside beverages and food were a 10. The service was impeccable.</p>
+                        <div class="story-user flex gap-16">
+                            <div class="story-user-avatar">
+                                <img src="imgs/user.jpg" alt="" class="story-user-img">
+                            </div>
+                            <div class="story-user-name">
+                                <p class="user-name">Nam in here</p>
+                                <p class="user-location">New York</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__inner">
+                <ul class="footer-list container flex">
+                    <li class="footer-item">
+                        <h2 class="footer-heading">Booking.com</h2>
+                        <p class="assess">Don't just get there, get there in style.</p>
+                    </li>
+                    <li class="footer-item">
+                        <h2 class="footer-heading">Categories</h2>
+                        <a href="#" class="footer-link">Deluxe room</a>
+                        <a href="#" class="footer-link">Couple room</a>
+                        <a href="#" class="footer-link">Family room</a>
+                        <a href="#" class="footer-link">Single room</a>
+                        <a href="#" class="footer-link">Twin room</a>
+                    </li>
+                    <li class="footer-item">
+                        <h2 class="footer-heading">Information</h2>
+                        <a href="#" class="footer-link">About us</a>
+                        <a href="#" class="footer-link">Contact us</a>
+                        <a href="#" class="footer-link">Privacy policy</a>
+                        <a href="#" class="footer-link">Wellness & Fitness</a>
+                        <a href="#" class="footer-link">Amenities & Services</a>
+                        <a href="#" class="footer-link">Events & Meetings</a>
+                    </li>
+                    <li class="footer-item">
+                        <h2 class="footer-heading">Follow us</h2>
+                        <a href="#" class="footer-link">Facebook</a>
+                        <a href="#" class="footer-link">Twitter</a>
+                        <a href="#" class="footer-link">Youtube</a>
+                        <a href="#" class="footer-link">Instagram</a>
+                        <a href="#" class="footer-link">Linkedin</a>
+                        <a href="#" class="footer-link">Pinterest</a>
+                    </li>
+                    <li class="footer-item">
+                        <h2 class="footer-heading">Payment channels</h2>
+                        <ul class="footer__payment-list flex gap-16">
+                            <li class="footer__payment-item">
+                                <div class="footer__payment-img">
+                                    <img src="imgs/amex.png" alt="">
+                                </div>
+                            </li>
+                            <li class="footer__payment-item">
+                                <div class="footer__payment-img">
+                                    <img src="imgs/visa.jpg" alt="">
+                                </div>
+                            </li>
+                            <li class="footer__payment-item">
+                                <div class="footer__payment-img">
+                                    <img src="imgs/discover.png" alt="">
+                                </div>
+                            </li>
+                            <li class="footer__payment-item">
+                                <div class="footer__payment-img">
+                                    <img src="imgs/meta.jpg" alt="">
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <hr class="line">
+                <div class="end flex container">
+                    <a href="#" class="copy">Copyright © 2024 Sailing WP. All Rights Reserved.</a>
+                    <a href="#" class="language"> English | USD</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
